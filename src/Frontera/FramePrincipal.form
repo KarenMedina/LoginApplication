@@ -71,7 +71,7 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="registroB">
               <Properties>
-                <Property name="text" type="java.lang.String" value="registroB"/>
+                <Property name="text" type="java.lang.String" value="registro"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
@@ -85,7 +85,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="ingresoB">
               <Properties>
-                <Property name="text" type="java.lang.String" value="ingresoB"/>
+                <Property name="text" type="java.lang.String" value="ingreso"/>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
