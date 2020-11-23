@@ -56,7 +56,6 @@ public class FramePrincipal extends javax.swing.JFrame {
             }
         });
         jToolBar1.add(registroB);
-        registroB.getAccessibleContext().setAccessibleName("registro");
 
         ingresoB.setText("ingreso");
         ingresoB.setFocusable(false);
@@ -68,7 +67,6 @@ public class FramePrincipal extends javax.swing.JFrame {
             }
         });
         jToolBar1.add(ingresoB);
-        ingresoB.getAccessibleContext().setAccessibleName("ingreso");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -100,8 +98,8 @@ public class FramePrincipal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(89, 89, 89)
+                .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE))
         );
 
         pack();

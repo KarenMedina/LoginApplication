@@ -32,8 +32,8 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="panelPrincipal" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+              <Component id="panelPrincipal" pref="44" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -76,9 +76,6 @@
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
-              <AccessibilityProperties>
-                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="registro"/>
-              </AccessibilityProperties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registroBActionPerformed"/>
               </Events>
@@ -90,9 +87,6 @@
                 <Property name="horizontalTextPosition" type="int" value="0"/>
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
-              <AccessibilityProperties>
-                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="ingreso"/>
-              </AccessibilityProperties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ingresoBActionPerformed"/>
               </Events>
